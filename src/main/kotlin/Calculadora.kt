@@ -1,7 +1,13 @@
 class Calculadora {
 
     fun suma(vararg nums: Int): Int {
-        return nums.sum()
+        if (nums.isEmpty())
+            return 0
+        var result = 0
+        nums.forEach { num ->
+            result += num
+        }
+        return result
     }
 
     fun resta(vararg nums: Int): Int {
