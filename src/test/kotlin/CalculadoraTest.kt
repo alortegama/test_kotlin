@@ -16,11 +16,6 @@ class CalculadoraTest {
         val expected = 11
         assertNotEquals(expected, calculadora.suma(5, 5))
     }
-    @Test
-    fun testSumIncorrecto() {
-        val expected = 11
-        assertNotEquals(expected, calculadora.suma(5, 5))
-    }
 
 
 
